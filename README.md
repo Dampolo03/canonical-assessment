@@ -33,7 +33,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser af
 To build the app for production to the `dist` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The build is minified and the filenames include the hashes.
 
 ### `npm run build`
+
+### 2.4
+
+To purge or remove unused CSS - reducing unnecessary bytes consumed by network activity.\
+Your app is ready to be deployed!
+
+### `npm run postbuild`
