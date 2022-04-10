@@ -1,0 +1,5 @@
+.main-body {
+  & > :nth-child(1) {
+    gap: 2rem;
+  }
+}
