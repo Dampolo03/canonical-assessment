@@ -1,0 +1,11 @@
+.loader {
+  display: flex;
+  justify-content: center;
+
+  & > :nth-child(1) {
+    font-size: larger;
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+  }
+}
