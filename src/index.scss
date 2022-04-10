@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@100;300;400&display=swap");
+@import "vanilla-framework";
+@include vanilla;
+
+$font-base-family: true;
+$font-base-size: true;
+$font-heading-family: true;
+$font-weight-display-heading: true;
+$font-weight-regular-text: true;
+$font-weight-bold: true;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
